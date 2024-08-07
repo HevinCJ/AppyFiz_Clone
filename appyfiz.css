@@ -1,0 +1,135 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "merivaregular", sans-serif;
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #0A0B27;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.header_image {
+    width: 50%;
+}
+
+.header_image_insider img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation_div {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation_links {
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.main_body {
+    width: 100%;
+}
+
+.center_image_main img {
+    width: 100%;
+    display: block;
+}
+
+.main_body_content {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-color: white;
+}
+
+.Refreshing_animation {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Refreshing_animation_content_holder h1 {
+    color: aliceblue;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+}
+
+.about_fizz_drink {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.about_fizz_drink_content {
+    font-family: Meriva, sans-serif;
+    line-height: 1.4;
+    color: #e53f27;
+    text-align: left;
+}
+
+.about_fizz_drink_content h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.about_fizz_drink_content p {
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.different_size_image img {
+    width: 100%;
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.first_footer {
+    width: 30%;
+    line-height: 150%
+}
+
+
